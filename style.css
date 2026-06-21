@@ -7,7 +7,7 @@ body{
     justify-content:center;
     align-items:center;
     min-height:100vh;
-    background-color:#896978;
+    background-color:white;
 }
 .container{
     width:40vh;
@@ -15,9 +15,10 @@ body{
     padding:2rem;
     background-color:White;
     border-radius:1rem;
+    box-shadow:0 0 1rem #00A7E1;
 }
-.form{
-    margin:0 2rem 0 1rem;
+form{
+    margin-top:1rem;
 }
 form input,button,select{
     width:100%;
@@ -30,7 +31,6 @@ form input{
     padding-left:0.5rem;
     height:2rem;
 }
-
 .dropdown{
     display:flex;
     justify-content:space-between;
@@ -44,7 +44,7 @@ form input{
 
 .select-container{
     display:flex;
-    width:8rem;
+    width:6rem;
     height:2rem;
     justify-content:center;
     align-items:center;
@@ -54,4 +54,18 @@ form input{
 }
 .select-container img{
     max-width:2rem;
+}
+.final-msg{
+    text-align:center;
+    margin:2rem 0 2rem 0;
+    border:0.1rem solid lightgrey;
+}
+.rate{
+    height:3rem;
+    background-color:#023647;;
+    color:white;
+    border-radius:2rem;
+    font-size:1.15rem;
+    cursor:pointer;
+    border:0.2rem solid #00A7E1;;
 }
