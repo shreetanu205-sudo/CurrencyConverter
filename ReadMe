@@ -1,12 +1,13 @@
 # Currency Converter
+--Project Description--
 
 A modern and responsive currency converter built using HTML, CSS, and JavaScript. The application fetches real-time exchange rates and dynamically updates country flags to provide a clean and intuitive user experience.
 
-## Live Demo
+## Live Demo (website)
 
 <https://shreetanu205-sudo.github.io/CurrencyConverter/>
 
-## ✨ Features
+##  Features
 
 - Real-time currency conversion
 - 30+ supported currencies
@@ -16,7 +17,7 @@ A modern and responsive currency converter built using HTML, CSS, and JavaScript
 - Input validation
 - Automatic default currencies (USD → INR)
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - HTML5
 - CSS3
