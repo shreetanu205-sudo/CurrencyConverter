@@ -6,6 +6,8 @@
     <title>Currency Converter</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
@@ -13,18 +15,14 @@
         <form>
             <div class="amount">
                 <p>Enter amount</p>
-                <input type="text" value="100">
+                <input type="text" value="1">
             </div>
             <div class="dropdown">
                 <div class="from-drop">
                     <p>From</p>
                     <div class="select-container">
                         <img class="flag-img" src="https://flagsapi.com/US/flat/64.png">
-                        <select name="from">
-                            <option value="USD">USD</option>
-                            <option value="INR">INR</option>
-                            <option value="EUR">EUR</option>
-                            <option value="AUD">AUD</option>
+                        <select class="select-tab" name="from">
                         </select>
                     </div>
                 </div>
@@ -33,11 +31,7 @@
                     <p>To</p>
                     <div class="select-container">
                         <img src="https://flagsapi.com/IN/flat/64.png">
-                        <select name="from">
-                            <option value="USD">USD</option>
-                            <option value="INR" selected>INR</option>
-                            <option value="EUR">EUR</option>
-                            <option value="AUD">AUD</option>
+                        <select class="select-tab"name="to">
                         </select>
                     </div>
                 </div>
@@ -50,6 +44,7 @@
             </button>
         </form>
     </div>
+    <script src="countries.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
