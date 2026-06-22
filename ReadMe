@@ -1,0 +1,107 @@
+# Currency Converter
+
+A modern and responsive currency converter built using HTML, CSS, and JavaScript. The application fetches real-time exchange rates and dynamically updates country flags to provide a clean and intuitive user experience.
+
+## Live Demo
+
+<https://shreetanu205-sudo.github.io/CurrencyConverter/>
+
+## ✨ Features
+
+- Real-time currency conversion
+- 30+ supported currencies
+- Dynamic country flags
+- Modern dark-themed UI
+- Responsive design
+- Input validation
+- Automatic default currencies (USD → INR)
+
+## 🛠️ Tech Stack
+
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- Fetch API
+
+## APIs Used
+
+### 1. Frankfurter API
+
+Used to fetch real-time exchange rates.
+
+**Base URL**
+
+<https://api.frankfurter.dev/v1/latest>
+
+Example:
+
+<https://api.frankfurter.dev/v1/latest?amount=1&from=USD&to=INR>
+
+Official Website:
+
+<https://frankfurter.dev/>
+
+### 2. Flags API
+
+Used to display country flags corresponding to selected currencies.
+
+**Base URL**
+
+<https://flagsapi.com/>
+
+Example:
+
+<https://flagsapi.com/US/flat/64.png>
+
+Official Website:
+
+<https://flagsapi.com/>
+
+## Screenshot
+
+<img width="400" alt="Currency Converter" src="ss.png">
+
+## Project Structure
+
+```
+Currency-Converter/
+│
+├── index.html
+├── style.css
+├── script.js
+├── countries.js
+└── README.md
+```
+
+##  Installation
+
+1. Clone the repository
+
+```
+git clone https://github.com/shreetanu205-sudo/Currency-Converter.git
+```
+
+2. Open the project folder
+
+```
+cd Currency-Converter
+```
+
+3. Run `index.html` in your browser.
+
+##  Future Improvements
+
+- Currency swap button
+- Searchable dropdowns
+- Exchange rate history charts
+- Light/Dark mode toggle
+- Loading animation
+- Recently used currencies
+
+## Author
+
+**Tanushree**
+
+GitHub: <https://github.com/shreetanu205-sudo>
+
+ If you found this project useful, consider giving the repository a star.

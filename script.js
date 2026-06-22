@@ -54,7 +54,7 @@ updateExchangeRate=async()=>{
     let data=await response.json();
     let rate=data.rates[toCurr.value]
 
-    let finalAmt=amtVal*rate;
+    let finalAmt=rate;
     mesg.innerText=`${amtVal} ${fromCurr.value} = ${finalAmt} ${toCurr.value}`;
 }
 
