@@ -21,8 +21,7 @@ body{
     background-color: #0f172a;
 }
 .container{
-    width:40vh;
-    min-height:45vh;
+    width:350px;
     padding:2rem;
     background-color:#1e293b;
     border-radius:2rem;
@@ -104,3 +103,9 @@ input,
     transition:0.3s ease;
 }
 
+@media (max-width: 480px){
+    .container{
+        width:85vw;
+        padding:1.5rem;
+    }
+}
